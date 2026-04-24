@@ -148,10 +148,14 @@ hexo deploy
 维护博客内容
 
 ```bash
-hexo clean             # 清除缓存
-hexo new "some-title"  # 写博客
-hexo generate          # 生成博客页面
-hexo s                 # 这一步不执行也可以，就是预览一下效果
+# 清除缓存
+hexo clean
+# 写博客
+hexo new "some-title"
+# 生成博客页面
+hexo generate
+# 这一步不执行也可以，就是预览一下效果
+hexo s
 ```
 
 部署博客
